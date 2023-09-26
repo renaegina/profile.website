@@ -1,0 +1,325 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:#076339;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+section {
+    padding: 50px;
+}
+
+section h2 {
+    font-size: 1.5em;
+}
+
+header img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+    float: left;
+    margin-left: 40px;
+}
+
+.language select {
+    color: white;
+    background-color: #076339;
+    border: none;
+    outline: none;
+}
+
+.language select img {
+    margin-right: 5px; 
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+
+.language {
+    margin-left: 200px;
+}
+
+.carousel-inner {
+    display: flex;
+}
+
+.carousel-item {
+    flex: 1;
+}
+
+img {
+    max-width: 50%;
+}
+
+.navbar {
+    margin: 40px;
+}
+
+.navbar div{
+    padding: 10px;
+    text-align: justify; 
+    border-radius: 10px;
+    border: 2px solid;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);;
+}
+
+.navbar div h3{
+    color: #067342;
+    font-weight: bolder;
+}
+
+.navbar div span{
+    color: black;
+}
+
+#pendidikan2.navbar div {
+    border: none;
+    width: 45%;  
+    margin: 0 auto;
+    background-color: rgb(238, 192, 9);
+}
+
+#pendidikan2 .container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#pendidikan2 .container-fluid h4{
+    font-weight: bolder;
+}
+
+#detail.navbar div {
+    text-align: center;
+    width: 45%;
+    margin: 0 auto;
+}
+
+#detail.container-fluid{
+    display: flex;
+    justify-content: center;
+    max-width: 30%;  
+}
+
+#detail.navbar{
+    margin-top: -3%;
+}
+
+#fakultas.navbar div{
+    text-align: justify; 
+    border-radius: 10px;
+    border: 2px solid;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);;
+}
+
+.fakultas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.fakultas h1 {
+    margin-right: 50px;
+    float: left;
+    margin-left: 100px;
+    color: rgb(241, 209, 23);
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.fakultas nav {
+    max-width: 100%; 
+    padding: 20px; 
+}
+
+.fakultas p{
+    float: right;
+    text-align: justify;
+    margin-right: 80px;
+    font-size: 20px;
+}
+
+#detail2.navbar div {
+    text-align: center;
+    width: 50%;
+}
+
+#detail2.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;  
+    height: 100%;
+}
+
+#detail2.navbar{
+    margin-top: 40px;
+}
+
+.akreditasi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    margin: 50px;
+    margin-top: -20px;
+}
+
+.akreditasi-text {
+    margin-right: 20px;
+}
+
+.akreditasi h1 {
+    color:#076339;
+    font-weight: bolder;
+    font-size: 45px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+
+.akreditasi p {
+    text-align: justify;
+    font-size: 18px;
+    margin-left: 60px;
+}
+
+.akreditasi img {
+    max-width: 40%;
+}
+
+#akreditasifa-rotate-270{
+    background-color: #076339;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.akreditasi2 {
+    display: inline-block; 
+    text-align: center; 
+}
+
+.gambar-container {
+    display: flex;
+    justify-content: center;
+}
+
+.gambar-container img {
+    max-width: 20%;
+    margin: 0 15px; 
+    border-radius: 10px;
+}
+
+.fasilitas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.fasilitas-container {
+    display: flex;
+    align-items: center; 
+}
+
+.gambar-column {
+    max-width: 30%;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.teks-column {
+    max-width: 50%;
+    margin-left: 80px;
+    margin-right: 20px;
+}
+
+.fasilitas h1 {
+    color: #076339;
+    font-weight: bolder;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.fasilitas p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+.fasilitas img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.social-icons a img {
+    width: 30px; 
+}
+
+
+.social-icons a img:hover {
+    filter: brightness(1.5);
+    color: white;
+}
+
+
+.social-icons a {
+    margin-right: 10px; 
+}
+
+
+/* Mengubah warna hitam menjadi putih */
+.social-icons a img {
+    filter: invert(100%);
+}
+
+/* Mengubah warna ikon saat dihover */
+.social-icons a img:hover {
+    filter: invert(100%);
+}
+
+footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 5px 0;
+    color: white;
+}
+
+footer p{
+    margin-top: 10px;
+}
